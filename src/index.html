@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+	<meta charset="utf-8">
+	<title>Pokedex | Data Lovers</title>
+	<meta name="description" content="O Pokedex foi criado para te ajudar a comparar diversas habilidades antes de sair para caçar Pokémons :)">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Cris Mantovani & Thais Wemberlaine">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="root">
+
+    <header>
+      <h1 class="title">Pokedex</h1>
+      <!-- Configurar o tamanho pelo CSS e apagar o width -->
+
+      <div id="logo">
+        <img src="./img/logo_header.png" width="200px" alt="Pokémon Go Logo">
+      </div>
+
+    </header>
+
+    <main>
+      <section>
+        <div id="filter">
+          <section>FILTRO
+          </section>
+        </div>
+        <div id="about">
+          <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia
+            cumque illo
+            id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate
+            nisi dolorum repellat sunt laborum.
+          </article>
+        </div>
+        <div>
+
+          <article class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia cumque illo
+            id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate
+            nisi dolorum repellat sunt laborum.</article>
+        </div>
+
+        <fieldset>
+
+          <div class="container-main">
+            <div class="card">
+              <h2 class="title-2">Bulbasaur</h2> <br>
+              <img src="./img/bulbasaur.png" alt="Avatar" style="width:20%"> <br>
+              <label for="type">Tipo: <img src="./img/type/grass.jpg"></label> <br>
+              <label for="power">Força: </label> <br>
+              <label for="rarity">Raridade: </label> <br><br>
+              <div class="button">
+                <button id="button" input type="button" class="button-comparsion">Comparar</button>
+                <br>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <!-- <div class="container">
+
+            <h2>Card 2</h2> <br>
+            <label for="tipo">Fogo </label>
+            </h2>
+          </div>
+
+          <div class="container">
+            <button id="button-comparsion input type=" button">Comparar</button>
+
+          </div> -->
+
+          <div class="popup">
+
+            </label>
+          </div>
+
+        </fieldset>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p class="footer-text">Lorem ipsum <a href="#" target="_blank" rel="noopener noreferrer"
+          title="Inserir Texto">Site</a>
+        | <a href="https://www.laboratoria.la/br" target="_blank" rel="noopener noreferrer" title="Laboratoria Brasil">
+          &#60;Laboratoria BR&#62;</a>
+      </p>
+    </footer>
+
+
+  </div>
+  <!-- <script src="main.js" type="module"></script> -->
+</body>
+
 </html>
