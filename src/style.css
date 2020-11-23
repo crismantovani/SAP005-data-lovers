@@ -9,34 +9,45 @@
 }
 
 body {
-  overflow: hidden;
+  overflow: scroll;
+  /*estava overflow: hide, então a a pessoa não conseguia descer no site*/
   height: 100vh;
   font-family: 'Didact Gothic', sans-serif;
   background-color: #fff;
   font-size: 16px;
   color: #000;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
-.title {
-  color: #c61f14;
+.main-header {
   width: 90%;
-  height: auto;
-  margin-top: 40px;
-  margin: 0 auto;
+  /*height: auto;*/
+  /* margin-top: 40px; */
   display: flex;
   align-items: center;
   justify-content: left;
-  flex-wrap: wrap;
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-.text {
+#logo {
+  width: 5%;
+}
+
+#logo img {
+  height: 100%;
+  width: 100%;
+}
+
+/* .text {
   font-size: 20px;
   display: block;
+} */
+
+.title h1 {
+  color: #c61f14;
+  font-size: 25px;
+  padding: 0;
 }
 
 .about {
@@ -79,10 +90,10 @@ body {
   box-shadow: 0 8px 16px 0 rgba(3, 3, 3, 0.2);
 }
 
-img {
+/* img {
   border-radius: 5px 5px 0 0;
   padding: 2px 100px;
-}
+} */
 
 button {
   border: 1.5px solid #ffffff;
