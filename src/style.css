@@ -13,7 +13,7 @@ body {
   /*estava overflow: hide, então a a pessoa não conseguia descer no site*/
   height: 100vh;
   font-family: 'Didact Gothic', sans-serif;
-  background-color: #fff;
+  background-color: #9DBC84;
   font-size: 16px;
   color: #000;
   justify-content: center;
@@ -31,7 +31,7 @@ body {
 }
 
 #logo {
-  width: 5%;
+  width: 10%;
 }
 
 #logo img {
@@ -43,12 +43,6 @@ body {
   font-size: 20px;
   display: block;
 } */
-
-.title h1 {
-  color: #c61f14;
-  font-size: 25px;
-  padding: 0;
-}
 
 .about {
   width: 90%;
@@ -62,6 +56,17 @@ body {
   padding-top: 4px;
   padding-bottom: 4px;
 
+}
+.filter-container {
+  display: flex;
+}
+
+.type-filter{
+  background-color: #C61F14;
+}
+
+.pokemon-comparison {
+  background-color: #ffcc03;
 }
 
 .container-main {
