@@ -13,21 +13,21 @@ body {
   /*estava overflow: hide, então a a pessoa não conseguia descer no site*/
   height: 100vh;
   font-family: 'Didact Gothic', sans-serif;
-  background-color: #9DBC84;
+  background-color: #c1e0a7;
   font-size: 16px;
   color: #000;
   justify-content: center;
+  margin: 1% 2%;
 }
 
 .main-header {
-  width: 90%;
+  width: 100%;
   /*height: auto;*/
   /* margin-top: 40px; */
   display: flex;
   align-items: center;
   justify-content: left;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 10px;
 }
 
 #logo {
@@ -44,29 +44,30 @@ body {
   display: block;
 } */
 
-.about {
+#about {
   width: 90%;
   height: auto;
-  margin-top: 40px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: left;
-  flex-wrap: wrap;
-  padding-top: 4px;
-  padding-bottom: 4px;
-
+  justify-content: center;
 }
+
 .filter-container {
   display: flex;
+  justify-content: space-between;
+  height: 300px;
 }
 
 .type-filter{
-  background-color: #C61F14;
+  width: 28%;
+  background-color: #c62014;
+  margin: 2% 0%;
 }
 
 .pokemon-comparison {
+  width: 70%;
   background-color: #ffcc03;
+  margin: 2% 0%;
 }
 
 .container-main {
