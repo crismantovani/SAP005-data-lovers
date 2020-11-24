@@ -1,62 +1,79 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<meta charset="utf-8">
-	<title>Pokedex | Data Lovers</title>
-	<meta name="description" content="O Pokedex foi criado para te ajudar a comparar diversas habilidades antes de sair para caçar Pokémons :)">
-	<meta name="robots" content="index, follow">
-	<meta name="author" content="Cris Mantovani & Thais Wemberlaine">
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-
-  <div id="root">
-
-    <header>
-      <h1 class="title">Pokedex</h1>
-      <!-- Configurar o tamanho pelo CSS e apagar o width -->
-
+  <head>
+	  <meta charset="utf-8">
+	  <title>Pokedex | Data Lovers</title>
+	  <meta name="description" content="O Pokedex foi criado para te ajudar a comparar diversas habilidades antes de sair para caçar Pokémons :)">
+	  <meta name="robots" content="index, follow">
+	  <meta name="author" content="Cris Mantovani & Thais Wemberlaine">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
       <div id="logo">
-        <img src="./img/logo_header.png" width="200px" alt="Pokémon Go Logo">
+        <img src="./img/pokemon-go-vector-logo.png" alt="Pokémon Go Logo">
+      </div>
+      <div class="title">
+        <img src="./img/pokedex-logo.png" alt="Pokédex">
+      </div>
+      <article id="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia
+        cumque illo
+        id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate
+        nisi dolorum repellat sunt laborum.
+    </article>
+    </header>
+    <main>
+      <div class="filter-container">
+        <nav class="type-filter">
+          <form>
+            <div class="pokemon-type">
+            <label for="pokemon-type">Escolha o tipo de Pokémon que deseja filtrar</label>
+            <select
+            id="chosen-type"
+            required>
+              <option value="Bug">Bug</option>
+              <option value="Dark">Dark</option>
+              <option value="Dragon">Dragon</option>
+              <option value="Eletric">Eletric</option>
+              <option value="Fairy">Fairy</option>
+              <option value="Fighting">Fighting</option>
+              <option value="Fire">Fire</option>
+              <option value="Flying">Flying</option>
+              <option value="Ghost">Ghost</option>
+              <option value="Grass">Grass</option>
+              <option value="Ground">Ground</option>
+              <option value="Ice">Ice</option>
+              <option value="Normal">Normal</option>
+              <option value="Poison">Poison</option>
+              <option value="Psychic">Psychic</option>
+              <option value="Rock">Rock</option>
+              <option value="Steel">Steel</option>
+              <option value="Water">Water</option>
+            </select>
+            <button id="filter" type="submit">Filtrar</button>
+            </div>
+          </form>
+        </nav>
+        <div class="pokemon-comparison">
+          <h1>COMPARAÇÃO DE POKEMONS</h1>
+          <div class="card">
+
+          </div>
+        </div>
       </div>
 
-    </header>
 
-    <main>
-      <section>
-        <div id="filter">
-          <section>FILTRO
-          </section>
-        </div>
-        <div id="about">
-          <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia
-            cumque illo
-            id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate
-            nisi dolorum repellat sunt laborum.
-          </article>
-        </div>
-        <div>
-
-          <article class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia cumque illo
-            id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate
-            nisi dolorum repellat sunt laborum.</article>
-        </div>
 
         <fieldset>
 
           <div class="container-main">
             <div class="card">
-              <h2 class="title-2">Bulbasaur</h2> <br>
-              <img src="./img/bulbasaur.png" alt="Avatar" style="width:20%"> <br>
-              <label for="type">Tipo: <img src="./img/type/grass.jpg"></label> <br>
-              <label for="power">Força: </label> <br>
-              <label for="rarity">Raridade: </label> <br><br>
-              <div class="button">
-                <button id="button" input type="button" class="button-comparsion">Comparar</button>
-                <br>
-
+              <h3 class="title-2">Bulbasaur</h3>
+              <img class="avatar" src="./img/bulbasaur.png" alt="Avatar">
+              <label for="type">Tipo: <img src="./img/type/grass.jpg"></label>
+              <label for="power">Força: </label>
+              <label for="rarity">Raridade: </label>
+              <button id="button" input type="button" class="button-comparsion">Comparar</button>
               </div>
             </div>
 
@@ -81,7 +98,6 @@
           </div>
 
         </fieldset>
-      </section>
 
     </main>
 
@@ -92,10 +108,8 @@
           &#60;Laboratoria BR&#62;</a>
       </p>
     </footer>
-
-
-  </div>
   <!-- <script src="main.js" type="module"></script> -->
 </body>
 
 </html>
+>
