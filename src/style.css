@@ -65,7 +65,7 @@ body {
 }
 
 .pokemon-comparison {
-  width: 70%;
+  width: 60%;
   background-color: #ffcc03;
   margin: 2% 0%;
 }
@@ -84,8 +84,8 @@ body {
   background-color: #a1c5c4;
   box-shadow: 0 4px 6px 0 rgba(3, 3, 3, 0.2);
   transition: 0.3s;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 5px;
   background-color: #fff;
   font-family: 'Didact Gothic', sans-serif;
