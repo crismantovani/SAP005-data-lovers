@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	  <meta charset="utf-8">
-	  <title>Pokedex | Data Lovers</title>
-	  <meta name="description" content="O Pokedex foi criado para te ajudar a comparar diversas habilidades antes de sair para caçar Pokémons :)">
-	  <meta name="robots" content="index, follow">
-	  <meta name="author" content="Cris Mantovani & Thais Wemberlaine">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="main-header">
-      <div id="logo">
-        <img src="./img/pokemon-go-vector-logo.png" alt="Pokémon Go Logo">
-      </div>
-      <div class="title">
-        <img src="./img/pokedex-logo.png" alt="Pokédex">
-      </div>
-      <article id="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia
-        cumque illo
-        id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate
-        nisi dolorum repellat sunt laborum.
+
+<head>
+  <meta charset="utf-8">
+  <title>Pokedex | Data Lovers</title>
+  <meta name="description"
+    content="O Pokedex foi criado para te ajudar a comparar diversas habilidades antes de sair para caçar Pokémons :)">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Cris Mantovani & Thais Wemberlaine">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div id="logo">
+      <img src="./img/pokemon-go-vector-logo.png" alt="Pokémon Go Logo">
+    </div>
+    <div class="title">
+      <img src="./img/pokedex-logo.png" alt="Pokédex">
+    </div>
+    <article id="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia
+      cumque illo
+      id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate
+      nisi dolorum repellat sunt laborum.
     </article>
-    </header>
-    <main>
-      <div class="filter-container">
-        <nav class="type-filter">
-          <form>
-            <div class="pokemon-type">
+  </header>
+  <main>
+    <div class="filter-container">
+      <nav class="type-filter">
+        <form>
+          <div class="pokemon-type">
             <label for="pokemon-type">Escolha o tipo de Pokémon que deseja filtrar</label>
-            <select
-            id="chosen-type"
-            required>
+            <select id="chosen-type" required>
               <option value="Bug">Bug</option>
               <option value="Dark">Dark</option>
               <option value="Dragon">Dragon</option>
@@ -51,36 +52,46 @@
               <option value="Water">Water</option>
             </select>
             <button id="filter" type="submit">Filtrar</button>
-            </div>
-          </form>
-        </nav>
-        <div class="pokemon-comparison">
-          <h1>COMPARAÇÃO DE POKEMONS</h1>
-          <div class="card">
-
           </div>
+        </form>
+      </nav>
+      <div class="pokemon-comparison">
+        <h1>COMPARAÇÃO DE POKEMONS</h1>
+        <div class="card">
+
         </div>
       </div>
+    </div>
 
 
 
-        <fieldset>
+    <fieldset>
 
-          <div class="container-main">
-            <div class="card">
-              <h3 class="title-2">Bulbasaur</h3>
-              <img class="avatar" src="./img/bulbasaur.png" alt="Avatar">
-              <label for="type">Tipo: <img src="./img/type/grass.jpg"></label>
-              <label for="power">Força: </label>
-              <label for="rarity">Raridade: </label>
-              <button id="button" input type="button" class="button-comparsion">Comparar</button>
-              </div>
-            </div>
+      <div class="container-main">
+        <div class="card">
+          <h3 class="title-2">Bulbasaur</h3>
+          <img class="avatar" src="./img/bulbasaur.png" alt="Avatar">
+          <label for="type">Tipo: <img src="./img/type/grass.jpg"></label>
+          <label for="power">Força: </label>
+          <label for="rarity">Raridade: </label>
+          <button id="button" input type="button" class="button-comparsion">Comparar</button>
+        </div>
 
+      </div>
 
-          </div>
+      </div>
+      <div class="center">
+        <div class="pagination">
+          <a href="#">❮</a>
+          <a href="#">1</a>
+          <a class="active" href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">❯</a>
+        </div>
 
-          <!-- <div class="container">
+        <!-- <div class="container">
 
             <h2>Card 2</h2> <br>
             <label for="tipo">Fogo </label>
@@ -92,24 +103,23 @@
 
           </div> -->
 
-          <div class="popup">
+        <div class="popup">
 
-            </label>
-          </div>
+          </label>
+        </div>
 
-        </fieldset>
+    </fieldset>
 
-    </main>
+  </main>
 
-    <footer class="footer">
-      <p class="footer-text">Lorem ipsum <a href="#" target="_blank" rel="noopener noreferrer"
-          title="Inserir Texto">Site</a>
-        | <a href="https://www.laboratoria.la/br" target="_blank" rel="noopener noreferrer" title="Laboratoria Brasil">
-          &#60;Laboratoria BR&#62;</a>
-      </p>
-    </footer>
+  <footer class="footer">
+    <p class="footer-text">Lorem ipsum <a href="#" target="_blank" rel="noopener noreferrer"
+        title="Inserir Texto">Site</a>
+      | <a href="https://www.laboratoria.la/br" target="_blank" rel="noopener noreferrer" title="Laboratoria Brasil">
+        &#60;Laboratoria BR&#62;</a>
+    </p>
+  </footer>
   <!-- <script src="main.js" type="module"></script> -->
 </body>
 
 </html>
->
