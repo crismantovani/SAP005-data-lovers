@@ -1,6 +1,64 @@
-import { example } from './data.js';
-// import data from './data/lol/lol.js';
+import {} from "./data.js";
 import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
 
-console.log(example, data);
+
+
+// Exibir Cards
+
+
+
+
+
+
+
+
+// Pagination
+
+const listItems = {
+  function listItems(items, pageActual, limitItems) {
+    let result = [];
+    let totalPage = Math.ceil(items.lenght / limitItems);
+    let count = (pageActual * limitItems) - limitItems;
+
+    if (pageActual <= totalPage) {
+      for (let i = count; i < delimiter; i++) {
+        result.push(items[i]);
+        count++;
+      }
+    }
+
+    return result;
+  }
+}
+
+// // Template String
+
+// array.map(indice => {
+//   elemento.innerHTML += `
+//   <article>
+//     <p>${indice.nome}</p>
+//   </article>
+// `
+// })
+
+
+// Card BG Color
+
+// const cardColorType = {
+//   Bug: "#1E6DE3",
+//   Dragon: "#ff6347",
+//   Electric: "#D7DB1E",
+//   Fighting: "#FEC807",
+//   Fire: "#FF8C00",
+//   Flying: "#0E8AA5",
+//   Ghost: "#F6D7F6",
+//   Grass: "#59B539",
+//   Ground: "#976B36",
+//   Ice: "#DBDDDD",
+//   Normal: "#DE2626",
+//   Poison: "#9D9F25",
+//   Psychic: "#D91CD1",
+//   Rock: "#484848",
+//   Steel: "#DAA520",
+//   Water: "#87CEEB",
+// }

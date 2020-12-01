@@ -1,9 +1,6 @@
-// estas funciones son de ejemplo
-
-export const example = () => {
-  return 'example';
+export const filterData = (data, condition) => {
+  return data.filter(
+    (pokemon) => pokemon.type[0] !== condition && pokemon.type[1] ! == condition
+  );
 };
 
-export const anotherExample = () => {
-  return 'OMG';
-};
