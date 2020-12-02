@@ -2,16 +2,6 @@ import {} from "./data.js";
 import data from './data/pokemon/pokemon.js';
 
 
-
-// Exibir Cards
-
-
-
-
-
-
-
-
 // Pagination
 
 const listItems = {
@@ -30,17 +20,6 @@ const listItems = {
     return result;
   }
 }
-
-// // Template String
-
-// array.map(indice => {
-//   elemento.innerHTML += `
-//   <article>
-//     <p>${indice.nome}</p>
-//   </article>
-// `
-// })
-
 
 // Card BG Color
 
