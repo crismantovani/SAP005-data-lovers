@@ -7,7 +7,10 @@ function cards (array) {
     for (let pokemon of array ) {
         card += `
         <article class="card">
-            <h3 class="card-title">${pokemon.name}</h3>
+          <h3 class="card-title">${pokemon.name}</h3>
+          <img class="card-image" src=${pokemon.img}>
+          <p class="card-type">${pokemon.type}</p>
+          <p class="card-rarity">${pokemon.rarity}</p>
         </article>`
     }
     console.log(card)
