@@ -13,7 +13,6 @@ function cards (array) {
           <p class="card-rarity">${pokemon.rarity}</p>
         </article>`
     }
-    console.log(card)
     return card
 }
 
