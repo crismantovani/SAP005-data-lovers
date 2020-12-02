@@ -1,3 +1,4 @@
+TESTE
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 *Reset do CSS*/ * {
@@ -10,7 +11,6 @@
 
 body {
   overflow: scroll;
-  /*estava overflow: hide, então a a pessoa não conseguia descer no site*/
   height: 100vh;
   font-family: 'Didact Gothic', sans-serif;
   background-color: #111937;
@@ -22,8 +22,6 @@ body {
 
 .main-header {
   width: 100%;
-  /*height: auto;*/
-  /* margin-top: 40px; */
   display: flex;
   align-items: center;
   justify-content: left;
@@ -32,17 +30,14 @@ body {
 
 #logo {
   width: 10%;
+  display: flex;
 }
 
 #logo img {
   height: 100%;
   width: 100%;
+  display: flex;
 }
-
-/* .text {
-  font-size: 20px;
-  display: block;
-} */
 
 #about {
   width: 90%;
@@ -55,7 +50,7 @@ body {
 .filter-container {
   display: flex;
   justify-content: space-between;
-  height: 300px;
+  height: 380px;
 }
 
 .type-filter {
@@ -104,11 +99,6 @@ body {
   box-shadow: 0 8px 16px 0 rgba(3, 3, 3, 0.2);
 }
 
-/* img {
-  border-radius: 5px 5px 0 0;
-  padding: 2px 100px;
-} */
-
 button {
   border: 1.5px solid #ffffff;
   border-radius: 1.5px;
@@ -138,32 +128,24 @@ button:hover {
   padding: 8px 20px;
   text-decoration: none;
   margin: 0 4px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 5px;
 }
 
 .pagination a.active {
   background-color: #c62014;
   color: #fff;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 5px;
 }
 
 .pagination a:hover:not(.active) {
   background-color: #ffffff;
   color: black;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 5px;
 }
 
 .center {
   text-align: center;
 }
-
 .footer {
   flex-shrink: 0;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
