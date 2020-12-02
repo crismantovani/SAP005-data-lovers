@@ -69,8 +69,21 @@ body {
   height: 100%;
   display: grid;
   grid: 220px / auto auto auto auto;
-  grid-gap: 30px;
+  grid-gap: 20px;
   justify-content: center;
+}
+
+#container-filter {
+  display: grid;
+  grid: 220px / auto auto auto auto;
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 3px 3px 5px rgb(180, 180, 180);
 }
 
 .card {
