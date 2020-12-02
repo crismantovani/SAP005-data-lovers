@@ -4,7 +4,7 @@ import data from './data/pokemon/pokemon.js';
 const pokemonsArray = data.pokemon
 function cards (array) {
     let card = ""
-    for (let pokemon of array ) {
+    for (let pokemon of array) {
         card += `
         <article class="card">
           <h3 class="card-title">${pokemon.name}</h3>
@@ -19,43 +19,14 @@ function cards (array) {
 const cardSection = document.getElementById("container-main")
 cardSection.innerHTML = cards(pokemonsArray)
 
+function filter () {
+  let chosenType = document.getElementById("chosen-type").value
+  let filterResult = pokemonsArray.filter(pokemon => {
+  return pokemon.type.includes(chosenType)
+})
+const cardSectionFilter = document.getElementById("container-filter")
+cardSectionFilter.innerHTML = cards(filterResult) 
+}
 
-// Pagination
-
-//const listItems = {
-  //function listItems(items, pageActual, limitItems) {
-    //let result = [];
-    //let totalPage = Math.ceil(items.lenght / limitItems);
-    //let count = (pageActual * limitItems) - limitItems;
-
-    //if (pageActual <= totalPage) {
-      //for (let i = count; i < delimiter; i++) {
-        //result.push(items[i]);
-        //count++;
-      //}
-    //}
-
-    //return result;
-  //}
-//}
-
-// Card BG Color
-
-// const cardColorType = {
-//   Bug: "#1E6DE3",
-//   Dragon: "#ff6347",
-//   Electric: "#D7DB1E",
-//   Fighting: "#FEC807",
-//   Fire: "#FF8C00",
-//   Flying: "#0E8AA5",
-//   Ghost: "#F6D7F6",
-//   Grass: "#59B539",
-//   Ground: "#976B36",
-//   Ice: "#DBDDDD",
-//   Normal: "#DE2626",
-//   Poison: "#9D9F25",
-//   Psychic: "#D91CD1",
-//   Rock: "#484848",
-//   Steel: "#DAA520",
-//   Water: "#87CEEB",
-// }
+let buttonFilter = document.getElementById("filter")
+buttonFilter.addEventListener ("click", filter)
