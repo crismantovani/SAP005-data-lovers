@@ -1,25 +1,41 @@
-import {} from "./data.js";
+//import { pokemon } from './data/pokemon/pokemon.js';
 import data from './data/pokemon/pokemon.js';
+
+const pokemonsArray = data.pokemon
+function cards (array) {
+    let card = ""
+    for (let pokemon of array ) {
+        card += `
+        <article class="card">
+            <h3 class="card-title">${pokemon.name}</h3>
+        </article>`
+    }
+    console.log(card)
+    return card
+}
+
+const cardSection = document.getElementById("container-main")
+cardSection.innerHTML = cards(pokemonsArray)
 
 
 // Pagination
 
-const listItems = {
-  function listItems(items, pageActual, limitItems) {
-    let result = [];
-    let totalPage = Math.ceil(items.lenght / limitItems);
-    let count = (pageActual * limitItems) - limitItems;
+//const listItems = {
+  //function listItems(items, pageActual, limitItems) {
+    //let result = [];
+    //let totalPage = Math.ceil(items.lenght / limitItems);
+    //let count = (pageActual * limitItems) - limitItems;
 
-    if (pageActual <= totalPage) {
-      for (let i = count; i < delimiter; i++) {
-        result.push(items[i]);
-        count++;
-      }
-    }
+    //if (pageActual <= totalPage) {
+      //for (let i = count; i < delimiter; i++) {
+        //result.push(items[i]);
+        //count++;
+      //}
+    //}
 
-    return result;
-  }
-}
+    //return result;
+  //}
+//}
 
 // Card BG Color
 
