@@ -25,6 +25,7 @@ body {
   align-items: center;
   justify-content: left;
   padding-top: 10px;
+  background-color: #111937;
 }
 
 #logo {
@@ -48,34 +49,43 @@ body {
 
 .filter-container {
   display: flex;
-  justify-content: space-between;
-  height: 380px;
+  padding-top: 2%;
 }
 
 .type-filter {
-  width: 28%;
+  width: 100%;
+  height: fit-content;
   background-color: #c62014;
-  margin: 2% 0%;
+  align-items: center;
 }
 
-.pokemon-comparison {
-  width: 60%;
-  background-color: #ffcc03;
-  margin: 2% 0%;
+.pokemon-order {
+  width: 90%;
+  height: fit-content;
+  background-color: #c62014;
+  padding: 1% 5%;
+}
+
+.pokemon-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1% 5%;
 }
 
 #container-main {
   width: 100%;
   height: 100%;
   display: grid;
-  grid: 220px / auto auto auto auto;
+  grid: 230px / auto auto auto auto auto;
   grid-gap: 20px;
   justify-content: center;
+  margin-top: 35px;
 }
 
 #container-filter {
   display: grid;
-  grid: 220px / auto auto auto auto;
+  grid: 320px / auto auto auto auto auto;
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
@@ -91,8 +101,24 @@ body {
   flex-direction: column;
   box-shadow: 3px 3px 5px rgb(180, 180, 180);
   transition: 0.3s;
-  width: 220px;
-  height: 220px;
+  width: 230px;
+  height: 230px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 5px rgb(180, 180, 180);
+  transition: 0.3s;
+  width: 230px;
+  height: 320px;
   border-radius: 5px;
   background-color: #fff;
   font-family: 'Didact Gothic', sans-serif;
@@ -120,12 +146,10 @@ button {
   border-radius: 1.5px;
   background-color: #cfafae;
   color: #010d1d;
-  flex-wrap: wrap;
-  padding: 0.3em 3.5em;
+  padding: 0 15px;
   font-family: 'Didact Gothic', sans-serif;
-  font-size: 1.1em;
+  font-size: 15px;
   text-align: center;
-  position: relative;
 }
 
 button:hover {
