@@ -60,21 +60,27 @@ function sortPokemon (event) {
   event.preventDefault()
   let chosenOrder = document.getElementById("chosen-order").value
   let order = (a,b) => (a["name"]).localeCompare(b["name"]);
-  let xxxxx= "";
+  let assortmentAZ = "";
+  let assortmentZA = "";
+
   if (chosenOrder === "AaZ") {
-    let xxxxx = pokemonsArray.sort((a,b) => {
+    let assortmentAZ = pokemonsArray.sort((a,b) => {
       return order(a,b)
   })
+  const cardOrder = document.getElementById("container-filter")
+  cardOrder.innerHTML = cards(assortmentAZ)
 }
   if (chosenOrder === "ZaA") {
-    let xxxxx = pokemonsArray.sort((a, b) => {
+    let assortmentZA = pokemonsArray.sort((a, b) => {
       return order(a,b)
     })
-    xxxxx.reverse()
+    assortmentZA.reverse()
+    const cardOrder = document.getElementById("container-filter")
+    cardOrder.innerHTML = cards(assortmentZA)
 }
   //document.getElementById("container-filter") = []
   const cardOrder = document.getElementById("container-filter")
-  cardOrder.innerHTML = cards(xxxxx)
+  cardOrder.innerHTML = cards(assortment)
 }
 
 
