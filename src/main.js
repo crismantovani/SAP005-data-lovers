@@ -19,7 +19,8 @@ function cards (array) {
 const cardSection = document.getElementById("container-main")
 cardSection.innerHTML = cards(pokemonsArray)
 
-function filter () {
+function filterType (event) {
+  event.preventDefault()
   let chosenType = document.getElementById("chosen-type").value
   let filterResult = pokemonsArray.filter(pokemon => {
   return pokemon.type.includes(chosenType)
@@ -29,9 +30,10 @@ cardSectionFilter.innerHTML = cards(filterResult)
 }
 
 let buttonFilter = document.getElementById("filter-type")
-buttonFilter.addEventListener ("click", filter)
+buttonFilter.addEventListener ("click", filterType)
 
-function filterRarity () {
+function filterRarity (event) {
+  event.preventDefault()
   let chosenRarity = document.getElementById("chosen-rarity").value
   let filterRarityResult = pokemonsArray.filter(pokemon => {
   return pokemon.rarity.includes(chosenRarity)
@@ -41,4 +43,58 @@ cardSectionRarityFilter.innerHTML = cards(filterRarityResult)
 }
 
 let buttonFilterRarity = document.getElementById("filter-rarity")
-buttonFilterRarity.addEventListener ("click", filterRarity)
+buttonFilterRarity.addEventListener("click", filterRarity)
+
+
+/*function sortPokemonAZ () {
+  let orderAZ = (a,b) => (a["name"]).localeCompare(b["name"]);
+  return pokemonsArray.sort((a, b) => orderAZ(a,b));
+}
+
+function sortPokemonZA () {
+  let orderZA = (a,b) => (a["name"]).localeCompare(b["name"]);
+  return pokemonsArray.sort((a, b) => orderZA(a,b)).reverse(); 
+}*/
+
+function sortPokemon (event) {
+  event.preventDefault()
+  let chosenOrder = document.getElementById("chosen-order").value
+  let order = (a,b) => (a["name"]).localeCompare(b["name"]);
+  let xxxxx= "";
+  if (chosenOrder === "AaZ") {
+    let xxxxx = pokemonsArray.sort((a,b) => {
+      return order(a,b)
+  })
+}
+  if (chosenOrder === "ZaA") {
+    let xxxxx = pokemonsArray.sort((a, b) => {
+      return order(a,b)
+    })
+    xxxxx.reverse()
+}
+  //document.getElementById("container-filter") = []
+  const cardOrder = document.getElementById("container-filter")
+  cardOrder.innerHTML = cards(xxxxx)
+}
+
+
+let buttonOrder = document.getElementById("pokemon-order")
+buttonOrder.addEventListener ("click", sortPokemon)
+
+
+
+
+/*function sortPokemon () {
+  let chosenOrder = document.getElementById("chosen-order").value
+  let order = (a,b) => (a["name"]).localeCompare(b["name"]);
+  
+  if (chosenOrder === "AaZ") {
+    return pokemonsArray.sort((a, b) =>  order(a,b));
+  } else {
+    return pokemonsArray.sort((a, b) =>  order(a,b)).reverse();
+  }
+const cardOrder = document.getElementById("container-main")
+cardOrder.innerHTML = sortPokemon() }
+
+let buttonOrder = document.getElementById("pokemon-order")
+buttonOrder.addEventListener ("click", sortPokemon)*/
