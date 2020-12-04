@@ -120,7 +120,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia  cumque i
 ## 6. Requisitos
 Para instalar e executar o projeto localmente, você deve seguir os seguintes passos:
 
-### :gear: 6.2 Softwares
+### 6.2 Softwares
 * [GIT Desktop](https://desktop.github.com/ "GIT download") (somente se você usa Windows).
 * [Node.js com NPM incluso](https://nodejs.org/en/download/ "Node.js Download").
 * [Visual Studio Code](https://code.visualstudio.com/download "VS Code Download")
