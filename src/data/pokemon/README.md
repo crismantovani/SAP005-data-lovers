@@ -7,18 +7,19 @@ Com o Pokédex, esperamos que você possa ser divertir e ter a melhor experiênc
 
 **[Acesse agora o Pokédex ](# "Clique e acesse o Pokédex") [![Pokémon Logo](/img/favicons/favicon-16x16.png "Clique e acesse o Pokédex")](#)**
 ___
-## :page_facing_up:	 Índice
 
-* 1. [Objetivos](#1-objetivos)
-* 2. [Usuários](#2-usuários)
- 2.2 [Pesquisas](#22-pesquisas)
- 2.3 [Histórias de Usuários](#23-histórias)
-* 3. [Desenvolvimento](#3-desenvolvimento)
-* 4. [Funcionalidades](#4-funcionalidades)
-* 5. [Testes](#5-testes)
-* 6. [Requisitos](#6-requisitos)
- 6.2 [Softwares](#62-softwares)
- 6.3 [Execução](#63-execução)
+## :page_facing_up: Índice
+
+* [1. Objetivos](#1-objetivos)
+* [2. Usuários](#2-usuários)
+    * [2.2 Pesquisas](#22-pesquisas)
+    * [2.3 Histórias de Usuários](#23-histórias)
+* [3. Desenvolvimento](#3-desenvolvimento)
+* [4. Funcionalidades](#4-funcionalidades)
+* [5. Testes](#5-testes)
+* [6. Requisitos](#6-requisitos)
+     * [6.2 Softwares](#62-softwares)
+     * [6.3 Execução](#63-execução)
 * 7. Item 7
 * 8. Item 8
 * 9. Item 9
