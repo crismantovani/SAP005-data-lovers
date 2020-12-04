@@ -60,11 +60,13 @@ body {
 }
 
 .pokemon-order {
+  display: flex;
   width: 90%;
   height: fit-content;
   background-color: #c62014;
   padding: 1% 5%;
   margin-top: 2%;
+  justify-content: space-between;
 }
 
 .pokemon-button {
