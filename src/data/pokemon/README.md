@@ -26,7 +26,7 @@ ___
 * 10. Item 10
 
 ***
-### 1. Objetivos
+## 1. Objetivos
 
 Ao iniciarmos o projeto Pokédex, de pronto percebemos alguns pontos que seriam essenciais para entregar um bom MVP:
 
@@ -37,7 +37,7 @@ Ao iniciarmos o projeto Pokédex, de pronto percebemos alguns pontos que seriam 
 * Organização das tarefas via Trello
 * **Responsividade:** Essencial pois o jogo é exclusivo para celulares e o usuário precisa conseguir obter informações ao mesmo tempo que está jogando.
 ---
-### 2. Usuários
+## 2. Usuários
 
 Colocamos os usuários e suas necessidades como foco principal do nosso projeto.
 Buscamos atender todas as necessidades de forma clara, eficiente e objetiva. Para isso, realizamos uma pesquisa durante 4 dias, onde coletamos informações como:
@@ -48,7 +48,7 @@ Buscamos atender todas as necessidades de forma clara, eficiente e objetiva. Par
 * Relacionamento com Pokémon Go;
 * Principais dificuldades;
 
-##### 2.2 Pesquisas
+### 2.2 Pesquisas
 Os resultados da pesquisa foram cruciais para desenvolvermos a melhor aplicação, focada em responsabilidade, acessibilidade, interatividade, disposição de dados, etc.
 
 A pesquisa foi determinante para nos dar um norte sobre o perfil da maioria de nossos usuários:
@@ -70,7 +70,7 @@ Podemos observar que a maioria de nossos usuários é fã de Pokémon desde o de
 Os jogadores casuais e que têm algumas dúvidas sobre o funcionamento do jogo, representam quase 30% da nossa base. 
 Também identificamos uma quantidade razoável (18.5%) de usuários em potencial, que demonstram interesse no jogo.
 
-##### 2.3 Histórias
+### 2.3 Histórias
 
 Escolhemos 3 (três) histórias diferentes para atingir o máximo de usuários possível
 
@@ -92,7 +92,7 @@ Precisa de um site responsivo, para escolher o melhor momentos antes de entrar n
 Acreditamos que isso pode ser resolvido com um site responsivo e que possibilite uma comparação rápida entre os tipos de Pokémons.
 
 ---
-### 3. Desenvolvimento
+## 3. Desenvolvimento
 Com as informações levantadas, partimos para o desenvolvimento da interface do site.
 
  **Rascunho**
@@ -109,28 +109,28 @@ Com as informações levantadas, partimos para o desenvolvimento da interface do
 
  ---
 
-### 4. Funcionalidades
+## 4. Funcionalidades
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia  cumque illo id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate nisi dolorum repellat sunt laborum.
 
 ---
 
-### 5. Testes
+## 5. Testes
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia  cumque illo id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate nisi dolorum repellat sunt laborum.
 
 ---
 
-### 6. Requisitos
+## 6. Requisitos
 Para instalar e executar o projeto localmente, você deve seguir os seguintes passos:
 
-##### :gear:	6.2  Softwares 
+### 6.2  Softwares 
 * [GIT Desktop](https://desktop.github.com/ "GIT download") (somente se você usa Windows).
 * [Node.js com NPM incluso](https://nodejs.org/en/download/ "Node.js Download").
 * [Visual Studio Code](https://code.visualstudio.com/download "VS Code Download")
 * Caso você tenha Windows 10 ou superior, pode usar o [Windows Subsystem for Linux](https://docs.microsoft.com/pt-br/windows/wsl/install-win10 "WSL").
 
-##### :hammer_and_pick:	6.3  Execução
+### 6.3  Execução
 
-* 🍴 Faça o [fork](#https://docs.github.com/pt "GitHub Documentação Oficial") do repositório. 
+* :fork_and_knife:	Faça o [fork](#https://docs.github.com/pt "GitHub Documentação Oficial") do repositório. 
 * :arrow_down:	Clone o fork para seu :computer: computador (cópia local).
 * :woman_technologist: Instale o Node.js.
 * :keyboard: Instale as dependências do projeto rodando o comando ```npm install```. 
