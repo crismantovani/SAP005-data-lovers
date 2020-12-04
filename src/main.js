@@ -38,12 +38,17 @@ function cardsInfo (array) {
   return cardInfo
 }
 
+
 function filterType (event) {
   event.preventDefault()
   let chosenType = document.getElementById("chosen-type").value
   let filterResult = pokemonsArray.filter(pokemon => {
   return pokemon.type.includes(chosenType)
 })
+let percentageCal = parseInt(((filterResult.length)*100)/(pokemonsArray.length))
+const percentageFilter = document.getElementById("type-percentage")
+percentageFilter.textContent = "Os pokémons do tipo " + chosenType + " representam " + percentageCal + "% dos pokémons totais da região de Kanto"
+
 const cardSectionFilter = document.getElementById("container-filter")
 cardSectionFilter.innerHTML = cardsInfo(filterResult) 
 }
@@ -51,12 +56,17 @@ cardSectionFilter.innerHTML = cardsInfo(filterResult)
 let buttonFilter = document.getElementById("filter-type")
 buttonFilter.addEventListener ("click", filterType)
 
+
 function filterRarity (event) {
   event.preventDefault()
   let chosenRarity = document.getElementById("chosen-rarity").value
   let filterRarityResult = pokemonsArray.filter(pokemon => {
   return pokemon.rarity.includes(chosenRarity)
 })
+let percentageCalRarity = parseInt(((filterRarityResult.length)*100)/(pokemonsArray.length))
+const percentageFilterRarity = document.getElementById("type-percentage")
+percentageFilterRarity.textContent = "Os pokémons de raridade " + chosenRarity + " representam " + percentageCalRarity + "% dos pokémons totais da região de Kanto"
+
 const cardSectionRarityFilter = document.getElementById("container-filter")
 cardSectionRarityFilter.innerHTML = cardsInfo(filterRarityResult) 
 }
@@ -67,6 +77,8 @@ buttonFilterRarity.addEventListener("click", filterRarity)
 function cleanFilter () {
   const cardSectionRarityFilter = document.getElementById("container-filter")
   cardSectionRarityFilter.innerHTML = ""
+  const cardSectionRarityCal = document.getElementById("type-percentage")
+  cardSectionRarityCal.innerHTML = ""
 }
 
 let buttonCleanFilter = document.getElementById("clean-button")
