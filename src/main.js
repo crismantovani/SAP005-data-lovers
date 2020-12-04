@@ -79,15 +79,6 @@ function sortPokemon (event) {
   let order = (a,b) => (a["name"]).localeCompare(b["name"]);
   let assortmentAZ = "";
   let assortmentZA = "";
-  let assortmentInitial = "";
-
-  if(chosenOrder === "") {
-    let assortmentInitial = pokemonsArray.sort((a,b) => {
-      return initialOrder(a,b)
-  })
-  const cardOrder = document.getElementById("container-main")
-  cardOrder.innerHTML = cards(assortmentInitial)
-  }
 
   if (chosenOrder === "AaZ") {
     let assortmentAZ = pokemonsArray.sort((a,b) => {
@@ -108,3 +99,15 @@ function sortPokemon (event) {
 
 let buttonOrder = document.getElementById("pokemon-order")
 buttonOrder.addEventListener ("click", sortPokemon)
+
+function cleanAssortment () {
+  let initialOrder = (a,b) => (a["num"]).localeCompare(b["num"]);
+    let assortmentInitial = pokemonsArray.sort((a,b) => {
+      return initialOrder(a,b)
+  })
+  const cardOrder = document.getElementById("container-main")
+  cardOrder.innerHTML = cards(assortmentInitial)
+}
+
+let buttonCleanOrder = document.getElementById("clean-order-filter")
+buttonCleanOrder.addEventListener ("click", cleanAssortment)

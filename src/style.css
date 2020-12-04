@@ -64,6 +64,7 @@ body {
   height: fit-content;
   background-color: #c62014;
   padding: 1% 5%;
+  margin-top: 2%;
 }
 
 .pokemon-button {
@@ -71,6 +72,12 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 1% 5%;
+}
+
+a {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  color: #fff;
 }
 
 #container-main {

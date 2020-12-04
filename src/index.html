@@ -45,10 +45,24 @@
   <main>
 
     <!-- Filter -->
+    
+      <div class="pokemon-order">
+        <label for="pokemon-order">Organize em ordem alfabética:</label>
+        <select id="chosen-order">
+          <option value="AaZ">A a Z</option>
+          <option value="ZaA">Z a A</option>
+        </select>
+        <button id="pokemon-order">Ordenar</button>
+        <button id="clean-order-filter">Limpar</button>
+        <a href="#pokemon">Ir para filtros</a>
+      </div>
+    </form>
+    <div id="container-main">
+    </div>
     <div class="filter-container">
       <nav class="type-filter">
         <form>
-          <div class="pokemon-button">
+          <div class="pokemon-button" id="pokemon">
             <div class="pokemon-type">
               <label for="pokemon-type">Filtre seu Pokémon pelo tipo:</label>
               <select id="chosen-type" required>
@@ -92,18 +106,6 @@
       <h3>Selecione um filtro para que os pokémons apareçam aqui com informações extras</h3>
     </div>
     <form>
-      <div class="pokemon-order">
-        <label for="pokemon-order">Organize em ordem alfabética:</label>
-        <select id="chosen-order">
-          <option value=""> </option>
-          <option value="AaZ">A a Z</option>
-          <option value="ZaA">Z a A</option>
-        </select>
-        <button id="pokemon-order">Ordenar</button>
-      </div>
-    </form>
-    <div id="container-main">
-    </div>
     <div class="center">
       <div class="pagination">
         <a href="#">❮</a>
