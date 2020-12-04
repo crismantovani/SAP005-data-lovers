@@ -1,4 +1,3 @@
-//import { pokemon } from './data/pokemon/pokemon.js';
 import data from './data/pokemon/pokemon.js';
 
 const pokemonsArray = data.pokemon
@@ -29,7 +28,7 @@ function cardsInfo (array) {
         <img class="card-image" src=${pokemon.img}>
         <p class="card-type">${pokemon.type}</p>
         <p class="card-rarity">${pokemon.rarity}</p>
-        <p class="card-type"><strong>Fraquesas:</strong></p>
+        <p class="card-type"><strong>Fraquezas:</strong></p>
         <p class="card-type">${pokemon.weaknesses}</p>
         <p class="card-type"><strong>Ataque:</strong> ${pokemon.stats.attack}</p>
         <p class="card-type"><strong>Defesa:</strong> ${pokemon.stats.defense}</p>

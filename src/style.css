@@ -167,32 +167,7 @@ button:hover {
   color: #FFF;
 }
 
-.pagination {
-  display: inline-block;
-}
-
-.pagination a {
-  color: #FFF;
-  float: left;
-  padding: 8px 20px;
-  text-decoration: none;
-  margin: 0 4px;
-  border-radius: 5px;
-}
-
-.pagination a.active {
-  background-color: #c62014;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.pagination a:hover:not(.active) {
-  background-color: #ffffff;
-  color: black;
-  border-radius: 5px;
-}
-
-.center {
+.center-footer {
   text-align: center;
 }
 .footer {
