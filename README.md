@@ -73,21 +73,27 @@ Também identificamos uma quantidade razoável (18.5%) de usuários em potencial
 Escolhemos 3 (três) histórias diferentes para atingir o máximo de usuários possível:
 
 :writing_hand:	**História de Usuário #1**
+
 _Flávia Machado_
 
 ![](/src/img/readme-img/persona1-flavia.png "Persona 1 Flávia")
+
 Flávia é uma fã de carteirinha de Pokémon. Seu maior objetivo é descobrir as chances de _spawn_ de Pokémons Raros. Ela precisa de um site que mostre a raridade de cada Pokémon.
 
 :writing_hand:	**História de Usuário #2**
 
 _Eduardo Silva_
-![Persona 2 Eduardo](/img/readme-img/persona2-eduardo.png "Persona 2 Eduardo")
+
+![](/src/img/readme-img/persona2-eduardo.png "Persona 2 Eduardo")
+
 Eduardo tem bastante interesse no jogo mas não sabe nada sobre ele. Sua maior necessidade é obter informações rápidas sobre os Pokémons. Ele precisa de um site que mostre dados como tipo, força e spawn, de forma intuitva como em um card.
 
 :writing_hand:	**História de Usuário #3**
 
 _Marcelo Santos_
-![Persona 3 Eduardo](/img/readme-img/persona3-marcelo.png "Persona 3 Marcelo")
+
+![](/src/img/readme-img/persona3-marcelo.png "Persona 3 Marcelo")
+
 Marcelo é fã do desenho, mas nunca jogou Pokémon Go. Ele tem muita dificuldade em escolher o melhor tipo de Pokémon antes das batalhas.
 Precisa de um site responsivo, para escolher o melhor momentos antes de entrar na guerra.
 Acreditamos que isso pode ser resolvido com um site responsivo e que possibilite uma comparação rápida entre os tipos de Pokémons.
