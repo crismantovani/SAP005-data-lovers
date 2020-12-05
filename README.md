@@ -19,9 +19,9 @@ ___
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Testes](#5-testes)
 * [6. Testes](#6-testes)
-* [7. Requisitos](#requisitos)
-     * [7.2 Softwares](#62-softwares)
-     * [7.3 Execução](#63-execução)
+* [7. Requisitos](#7-requisitos)
+     * [7.2 Softwares](#72-softwares)
+     * [7.3 Execução](#73-execução)
 * 8. Item 8
 * 9. Item 9
 * 10. Item 10
