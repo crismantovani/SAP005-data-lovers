@@ -18,10 +18,10 @@ ___
 * [3. Desenvolvimento](#3-desenvolvimento)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Testes](#5-testes)
-* [6. Requisitos](#6-requisitos)
-     * [6.2 Softwares](#62-softwares)
-     * [6.3 Execução](#63-execução)
-* 7. Item 7
+* [6. Testes](#6-testes)
+* [7. Requisitos](#requisitos)
+     * [7.2 Softwares](#62-softwares)
+     * [7.3 Execução](#63-execução)
 * 8. Item 8
 * 9. Item 9
 * 10. Item 10
