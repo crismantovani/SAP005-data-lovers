@@ -53,17 +53,18 @@ Os resultados da pesquisa foram cruciais para desenvolvermos a melhor aplicaçã
 A pesquisa foi determinante para nos dar um norte sobre o perfil da maioria de nossos usuários:
 
 **Média de idade**
-![Resultado Pesquisa: Idade](/img/readme-img/pesquisa-idade.PNG "Resultado Pesquisa: Idade")
+![](/src/img/readme-img/pesquisa-idade.png)
 
 Esse dado nos mostrou que a mais da metade de nossos usuários tem 45 anos ou mais, enquanto  ⅓ tem de 21 a 40 anos. Os demais grupos se fragmentaram em partes bem menores, o que faz com que eles não gerem demanda suficiente para viabilizar o desenvolvimento de um site adequado ao perfil informado.
 
 **Plataforma em que mais joga**
-![Resultado Pesquisa: Plataforma](/img/readme-img/pesquisa-plataforma.PNG "Resultado Pesquisa: Plataforma")
+![](/src/img/readme-img/pesquisa-plataforma.png)
+
 Esse resultado mostra que mesmo o usuário podendo selecionar várias respostas, a plataforma mais utilizada é de Celular ou Tablet.
 Isso nos mostrou que um site responsivo deveria ser uma de nossas prioridades neste projeto.
 
 **Relacionamento com Pokémon Go**
-![Resultado Pesquisa: Relacionamento](/img/readme-img/pesquisa-relacionamento.PNG "Resultado Pesquisa: Relacionamento")
+![](/src/img/readme-img/pesquisa-relacionamento.png)
 
 Podemos observar que a maioria de nossos usuários é fã de Pokémon desde o desenho e costuma jogar Pokémon Go com frequência. 
 Os jogadores casuais e que têm algumas dúvidas sobre o funcionamento do jogo, representam quase 30% da nossa base. 
