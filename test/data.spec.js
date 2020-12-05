@@ -1,23 +1,13 @@
-import { example, anotherExample } from '../src/data.js';
+import { showFilterType, showFilterRarity } from '../src/data.js';
+// import data from './mock.js'
 
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe('showFilterType', () => {
+  it('should be a function', () => {
+    expect(typeof showFilterType).toBe('function');
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
-
-
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it('showFilterRarity', () => {
+    expect(typeof showFilterRarity).toBe('function');
   });
 });
