@@ -174,9 +174,11 @@ Chegamos a versão atual:
 
 **Celulares e Tablets :iphone:**
 
- ![](/src/img/readme-img/)
+ ![](/src/img/readme-img/pokedex-tablet.jpeg)
  
- ![](/src/img/readme-img/)
+ ![](/src/img/readme-img/pokedex-mobile1.jpeg)
+ 
+ ![](/src/img/readme-img/pokedex-mobile2.jpeg)
 
 ---
 
