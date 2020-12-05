@@ -99,8 +99,14 @@ Precisa de um site responsivo, para escolher o melhor momentos antes de entrar n
 Acreditamos que isso pode ser resolvido com um site responsivo e que possibilite uma comparação rápida entre os tipos de Pokémons.
 
 ---
-## 3. Desenvolvimento
+## 3. Planejamento
+
 Com as informações levantadas, partimos para o desenvolvimento da interface do site.
+
+### 3.2 Paleta de cores
+A paleta de cores foi criada pensando em acessibilidade para quem é daltônico.
+
+![](/src/img/readme-img/paleta-cores.png)
 
  **Rascunho**
  ![](/src/img/readme-img/prototipo_caderno.jpg)
@@ -116,11 +122,9 @@ Com as informações levantadas, partimos para o desenvolvimento da interface do
 
  ---
  
-## 4. Planejamento
+## 4. Desenvolvimento
+Com as informações levantadas, partimos para o desenvolvimento da interface do site.
 
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia  cumque illo id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate nisi dolorum repellat sunt laborum.
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia  cumque illo id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate nisi dolorum repellat sunt laborum.
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic mollitia  cumque illo id quidem perspiciatis commodi, blanditiis, eius cupiditate labore magnam, dolor odio facilis voluptate nisi dolorum repellat sunt laborum.
 
 ---
 
