@@ -1,4 +1,5 @@
 import data from './data/pokemon/pokemon.js';
+import {showFilterType, showFilterRarity} from './data.js';
 
 const pokemonsArray = data.pokemon
 function cards (array) {
@@ -37,7 +38,6 @@ function cardsInfo (array) {
   }
   return cardInfo
 }
-
 
 function filterType (event) {
   event.preventDefault()
