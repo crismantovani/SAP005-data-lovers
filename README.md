@@ -18,7 +18,8 @@ ___
 * [3. Planejamento](#3-planejamento)
 * [4. Desenvolvimento](#4-desenvolvimento)
 * [5. Funcionalidades](#5-funcionalidades)
-* [5.1 Linguagens e Ferramentas](#51-linguagenseferramentas)
+* [5.1 Linguagens](#51-linguagens)
+* [5.2 Ferramentas](#52-ferramentas)
 * [6. Testes](#6-testes)
 * [7. Requisitos](#7-requisitos)
      * [7.2 Softwares](#72-softwares)
@@ -168,6 +169,8 @@ A aplicação foi desenvolvida pensando na acessibilidade e na praticidade, para
 
 ### 5.1 Linguagens e Ferramentas
 O Pokedéx foi desenvolvido com as linguagens: HTML5, CSS3 e Vanilla JavaScript.
+
+### 5.2 Ferramentas
 As aplicações utilizadas são: Node.js, NPM, Visual Studio Code e GitHub.
 
 ---
