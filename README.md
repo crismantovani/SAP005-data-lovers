@@ -5,7 +5,8 @@ Seja bem vindo (a) ao Pokédex :nerd_face:
 O Pokédex é um site onde você pode interagir através de filtros e navegar por 151 Pokémons. 
 Com o Pokédex, esperamos que você possa ser divertir e ter a melhor experiência possível quando jogar Pokémon GO! :partying_face:
 
-**[Acesse Pokédex](# "Acesse o Pokédex")** [!](/src/img/favicons/favicon-16x16.png)
+**[Acesse Pokédex](# "Acesse o Pokédex")** 
+[](/src/img/favicons/favicon-16x16.png)
 ___
 
 ## :page_facing_up: Índice
