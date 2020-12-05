@@ -103,16 +103,16 @@ Acreditamos que isso pode ser resolvido com um site responsivo e que possibilite
 Com as informações levantadas, partimos para o desenvolvimento da interface do site.
 
  **Rascunho**
- ![Rascunho](/img/readme-img/prototipo_caderno.jpg "Rascunho")
+ ![](/src/img/readme-img/prototipo_caderno.jpg)
 
   **Protótipo de Baixa Fidelidade para PC :computer:**
- ![Protótipo de Baixa Fidelidade](/img/readme-img/prototipo_baixaFidelidade.PNG "Protótipo de Baixa Fidelidade")
+ ![](/src/img/readme-img/prototipo_baixaFidelidade.png)
 
  **Protótipo de Baixa Fidelidade para Celulares e Tablets :iphone:**
- ![Protótipo de Baixa Fidelidade](/img/readme-img/prototipo_baixaFidelidade.PNG "Protótipo de Baixa Fidelidade")
+ ![](/src/img/readme-img/prototipo_baixaFidelidade.png)
 
  **MVP (Mínimo Produto Viável) :tada:**
- ![Protótipo de Baixa Fidelidade](/img/readme-img/prototipo_baixaFidelidade.PNG "Protótipo de Baixa Fidelidade")
+ ![](/src/img/readme-img/prototipo_baixaFidelidade.png)
 
  ---
  
