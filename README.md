@@ -162,8 +162,12 @@ Após o desenvolvimento do MVP, iniciamos os testes de usabilidade com usuários
 Os feedbacks que recebemos, nos fizeram mudar alguns pontos no design
 
 * Remoção da DIV de comparação de cards;
-* Pequenas alterações de tonalidade;
+* Alterações de tonalidade visando melhor experiência para daltônicos ;
 * Reposicionamento dos filtros para melhor visualização;
+
+Chegamos a versão atual:
+
+![](/src/img/readme-img/pokedex-latest.PNG)
 
 ---
 
