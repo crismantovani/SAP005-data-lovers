@@ -53,6 +53,7 @@ Os resultados da pesquisa foram cruciais para desenvolvermos a melhor aplicaçã
 A pesquisa foi determinante para nos dar um norte sobre o perfil da maioria de nossos usuários:
 
 **Média de idade**
+
 ![](/src/img/readme-img/pesquisa-idade.png)
 
 Esse dado nos mostrou que a mais da metade de nossos usuários tem 45 anos ou mais, enquanto  ⅓ tem de 21 a 40 anos. Os demais grupos se fragmentaram em partes bem menores, o que faz com que eles não gerem demanda suficiente para viabilizar o desenvolvimento de um site adequado ao perfil informado.
@@ -65,6 +66,7 @@ Esse resultado mostra que mesmo o usuário podendo selecionar várias respostas,
 Isso nos mostrou que um site responsivo deveria ser uma de nossas prioridades neste projeto.
 
 **Relacionamento com Pokémon Go**
+
 ![](/src/img/readme-img/pesquisa-relacionamento.png)
 
 Podemos observar que a maioria de nossos usuários é fã de Pokémon desde o desenho e costuma jogar Pokémon Go com frequência. 
