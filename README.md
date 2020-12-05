@@ -101,7 +101,9 @@ Acreditamos que isso pode ser resolvido com um site responsivo e que possibilite
 ---
 ## 3. Planejamento
 
-Com as informações levantadas, partimos para o desenvolvimento da interface do site.
+Fizemos todo o planejamento no Trello:
+![](/src/img/readme-img/trello.PNG)
+
 
 ### 3.2 Paleta de cores
 A paleta de cores foi criada pensando em acessibilidade para quem é daltônico.
