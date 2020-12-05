@@ -73,9 +73,9 @@ Também identificamos uma quantidade razoável (18.5%) de usuários em potencial
 Escolhemos 3 (três) histórias diferentes para atingir o máximo de usuários possível:
 
 :writing_hand:	**História de Usuário #1**
-
 _Flávia Machado_
-![Persona 1 Flávia](/img/readme-img/persona1-flavia.png "Persona 1 Flávia")
+
+![](/src/img/readme-img/persona1-flavia.png "Persona 1 Flávia")
 Flávia é uma fã de carteirinha de Pokémon. Seu maior objetivo é descobrir as chances de _spawn_ de Pokémons Raros. Ela precisa de um site que mostre a raridade de cada Pokémon.
 
 :writing_hand:	**História de Usuário #2**
