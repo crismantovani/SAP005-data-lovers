@@ -8,3 +8,4 @@ export const showFilterRarity = (data, userText) => {
   const rarityInclude = (data.filter (data => data.rarity.includes (userText)))
   return (rarityInclude);
 };
+//

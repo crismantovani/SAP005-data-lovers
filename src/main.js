@@ -1,6 +1,6 @@
 import data from './data/pokemon/pokemon.js';
 import {showFilterType, showFilterRarity} from './data.js';
-
+//
 const pokemonsArray = data.pokemon
 function cards (array) {
     let card = ""
