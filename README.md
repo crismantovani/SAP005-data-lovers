@@ -18,29 +18,13 @@ ___
 * [3. Planejamento](#3-planejamento)
 * [4. Desenvolvimento](#4-desenvolvimento)
 * [5. Funcionalidades](#5-funcionalidades)
-* [5.1 Linguagens](#51-linguagens)
-* [5.2 Ferramentas](#52-ferramentas)
+* [5.2 Linguagens](#52-linguagens)
+* [5.3 Ferramentas](#53-ferramentas)
 * [6. Testes](#6-testes)
 * [7. Requisitos](#7-requisitos)
      * [7.2 Softwares](#72-softwares)
      * [7.3 Execução](#73-execução)
 * [8. Desenvolvedoras](#8-desenvolvedoras)
-
-
-1. Objetivos
-2. Usuários
-2.2 Pesquisas
-2.3 Histórias
-3. Planejamento
-4. Desenvolvimento
-5. Funcionalidades
-5.1 Linguagens & Ferramentas
-6. Testes
-7. Requisitos
-7.2 Softwares
-7.3 Execução
-8. Desenvolvedoras
-
 
 ***
 ## 1. Objetivos
@@ -167,10 +151,10 @@ A aplicação foi desenvolvida pensando na acessibilidade e na praticidade, para
 * Botão "Limpar" para resetar a busca;
 * Cards com: Nome do Pokémon, Foto, tipo e raridade;
 
-### 5.1 Linguagens e Ferramentas
+### 5.2 Linguagens
 O Pokedéx foi desenvolvido com as linguagens: HTML5, CSS3 e Vanilla JavaScript.
 
-### 5.2 Ferramentas
+### 5.3 Ferramentas
 As aplicações utilizadas são: Node.js, NPM, Visual Studio Code e GitHub.
 
 ---
