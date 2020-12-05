@@ -58,6 +58,7 @@ A pesquisa foi determinante para nos dar um norte sobre o perfil da maioria de n
 Esse dado nos mostrou que a mais da metade de nossos usuários tem 45 anos ou mais, enquanto  ⅓ tem de 21 a 40 anos. Os demais grupos se fragmentaram em partes bem menores, o que faz com que eles não gerem demanda suficiente para viabilizar o desenvolvimento de um site adequado ao perfil informado.
 
 **Plataforma em que mais joga**
+
 ![](/src/img/readme-img/pesquisa-plataforma.png)
 
 Esse resultado mostra que mesmo o usuário podendo selecionar várias respostas, a plataforma mais utilizada é de Celular ou Tablet.
