@@ -10,7 +10,7 @@
 
 body {
   overflow: scroll;
-  height: 100vh;
+  height: 100%;
   font-family: 'Didact Gothic', sans-serif;
   background-color: #111937;
   font-size: 16px;
@@ -104,6 +104,7 @@ a {
   justify-content: center;
   margin-top: 35px;
 }
+
 #type-percentage {
   display: flex;
   justify-content: center;
@@ -204,4 +205,55 @@ button:hover {
 
 .footer a {
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
+  #about {
+    width: 70%;
+    font-size: 14px;
+  }
+
+  #container-main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid: 230px / auto auto auto;
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  .pokedex {
+    width: 85%;
+    font-size: 14px;;
+  }
+  
+  .pokemon-order {
+    width: 85%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  #container-main {
+    display: grid;
+    grid: 210px / auto auto;
+   
+  }
+
+  .card {
+    width: 180px;
+    height: 180px;
+  }
+
+  .main-header {
+    display: flex;
+    flex-direction: column;
+  }
 }

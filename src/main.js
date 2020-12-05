@@ -65,7 +65,7 @@ function filterRarity (event) {
 })
 let percentageCalRarity = parseInt(((filterRarityResult.length)*100)/(pokemonsArray.length))
 const percentageFilterRarity = document.getElementById("type-percentage")
-percentageFilterRarity.textContent = "Os pokémons de raridade " + chosenRarity + " representam " + percentageCalRarity + "% dos pokémons totais da região de Kanto"
+percentageFilterRarity.innerHTML = "Os pokémons de raridade " + chosenRarity + " representam " + percentageCalRarity + "% dos pokémons totais da região de Kanto"
 
 const cardSectionRarityFilter = document.getElementById("container-filter")
 cardSectionRarityFilter.innerHTML = cardsInfo(filterRarityResult) 
