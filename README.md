@@ -134,6 +134,10 @@ E no Figma, fizemos os protótipos de baixa fidelidade para as plataformas neces
 ## 4. Desenvolvimento
 Com as informações levantadas, partimos para o desenvolvimento da interface do site.
 
+Versão 1:
+![](/src/img/readme-img/pokedex-v1.png)
+
+Após o desenvolvimento, partimos para as funcionalidades.
 
 ---
 
