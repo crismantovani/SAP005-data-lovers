@@ -15,16 +15,31 @@ ___
 * [2. Usuários](#2-usuários)
     * [2.2 Pesquisas](#22-pesquisas)
     * [2.3 Histórias de Usuários](#23-histórias)
-* [3. Desenvolvimento](#3-desenvolvimento)
-* [4. Funcionalidades](#4-funcionalidades)
-* [5. Testes](#5-testes)
+* [3. Planejamento](#3-planejamento)
+* [4. Desenvolvimento](#4-desenvolvimento)
+* [5. Funcionalidades](#5-funcionalidades)
+* [5.1 Linguagens e Ferramentas](#51-linguagenseferramentas)
 * [6. Testes](#6-testes)
 * [7. Requisitos](#7-requisitos)
      * [7.2 Softwares](#72-softwares)
      * [7.3 Execução](#73-execução)
-* 8. Item 8
-* 9. Item 9
-* 10. Item 10
+* [8. Desenvolvedoras](#8-desenvolvedoras)
+
+
+1. Objetivos
+2. Usuários
+2.2 Pesquisas
+2.3 Histórias
+3. Planejamento
+4. Desenvolvimento
+5. Funcionalidades
+5.1 Linguagens & Ferramentas
+6. Testes
+7. Requisitos
+7.2 Softwares
+7.3 Execução
+8. Desenvolvedoras
+
 
 ***
 ## 1. Objetivos
@@ -151,7 +166,7 @@ A aplicação foi desenvolvida pensando na acessibilidade e na praticidade, para
 * Botão "Limpar" para resetar a busca;
 * Cards com: Nome do Pokémon, Foto, tipo e raridade;
 
-### 5.1 Linguagens & Ferramentas
+### 5.1 Linguagens e Ferramentas
 O Pokedéx foi desenvolvido com as linguagens: HTML5, CSS3 e Vanilla JavaScript.
 As aplicações utilizadas são: Node.js, NPM, Visual Studio Code e GitHub.
 
@@ -167,10 +182,10 @@ Os feedbacks que recebemos, nos fizeram mudar alguns pontos no design
 
 Chegamos a versão atual:
 
-Desktop :computer:**
+**Desktop :computer:**
 ![](/src/img/readme-img/pokedex-latest.PNG)
 
-Celulares e Tablets :iphone:**
+**Celulares e Tablets :iphone:**
 
  ![](/src/img/readme-img/)
  
