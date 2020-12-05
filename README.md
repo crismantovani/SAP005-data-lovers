@@ -6,7 +6,7 @@ O Pokédex é um site onde você pode interagir através de filtros e navegar po
 Com o Pokédex, esperamos que você possa ser divertir e ter a melhor experiência possível quando jogar Pokémon GO! :partying_face:
 
 **[Acesse Pokédex](# "Acesse o Pokédex")** 
-[](/src/img/favicons/favicon-16x16.png)
+![](/src/img/favicons/favicon-16x16.png)
 ___
 
 ## :page_facing_up: Índice
