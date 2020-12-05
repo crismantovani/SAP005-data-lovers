@@ -167,7 +167,14 @@ Os feedbacks que recebemos, nos fizeram mudar alguns pontos no design
 
 Chegamos a versão atual:
 
+Desktop :computer:**
 ![](/src/img/readme-img/pokedex-latest.PNG)
+
+Celulares e Tablets :iphone:**
+
+ ![](/src/img/readme-img/)
+ 
+ ![](/src/img/readme-img/)
 
 ---
 
