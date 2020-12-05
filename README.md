@@ -104,16 +104,22 @@ Acreditamos que isso pode ser resolvido com um site responsivo e que possibilite
 Fizemos todo o planejamento no Trello:
 ![](/src/img/readme-img/trello.PNG)
 
-
 ### 3.2 Paleta de cores
+
 A paleta de cores foi criada pensando em acessibilidade para quem é daltônico.
 
 ![](/src/img/readme-img/paleta-cores.png)
 
  **Rascunho**
+
+A interface foi rascunhada no papel:
+ 
  ![](/src/img/readme-img/prototipo_caderno.jpg)
 
   **Protótipo de Baixa Fidelidade para PC :computer:**
+
+E no Figma, fizemos os protótipos de baixa fidelidade para as plataformas necessárias.
+  
  ![](/src/img/readme-img/prototipo_baixaFidelidade.png)
 
  **Protótipo de Baixa Fidelidade para Celulares e Tablets :iphone:**
