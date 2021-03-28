@@ -1,4 +1,4 @@
-# :egg: Pokédex | Data Lovers
+# :egg: Pokédex
 
 Seja bem vindo (a) ao Pokédex :nerd_face:	
 
